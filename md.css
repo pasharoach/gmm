@@ -2,6 +2,43 @@
   background-color: #000000;
 }
 
+ion-core-progress-bar progress { 
+background-color: #000000; 
+border-color: #000000; 
+color: #000000; 
+}
+ion-app.app-root core-courses-course-progress .card.core-danger-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-dark-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-gray-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-info-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-inverted-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-light-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-primary-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-secondary-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-success-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-warning-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress ion-card.card .core-course-link .core-course-title h2 ion-icon {
+    margin-right: 4px;
+    color: color: #000000;
+}
+ion-app.app-root core-progress-bar progress {
+    
+    color: #ff0000 !important;
+}
+.button-inner {
+   
+    color: #ff0000 !important;
+}
+ion-app.app-root core-courses-course-progress .card.core-danger-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-dark-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-gray-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-info-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-inverted-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-light-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-primary-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-secondary-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-success-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-warning-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress ion-card.card .core-course-link .core-course-title h2 ion-icon {
+    
+    color: #3a3a3a;
+}
+
+@media screen and (orientation: landscape)
+[dir=ltr] ion-app.app-root core-split-view .split-pane-visible .split-pane-side .core-split-item-selected {
+    border-left: calc(env(safe-area-inset-left) + 5px) solid #e93a26;
+}
+ion-app.app-root .core-button-select, ion-app.app-root ion-select.core-button-select {
+    background-color: #fff;
+    color: #ff001d;
+   
+}
+
+
+ion-app.app-root .core-tabs-bar a.tab-slide[aria-selected=true] {
+    color: #e93a26 !important;
+    ;
+}
 ion-side-menu li .item {
   background-color: #313848;
   border-color: #4F5865;
