@@ -8,8 +8,8 @@ border-color: #000000;
 color: #000000; 
 }
 ion-app.app-root core-courses-course-progress .card.core-danger-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-dark-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-gray-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-info-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-inverted-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-light-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-primary-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-secondary-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-success-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress .card.core-warning-card .core-course-link .core-course-title h2 ion-icon, ion-app.app-root core-courses-course-progress ion-card.card .core-course-link .core-course-title h2 ion-icon {
-    margin-right: 4px;
-   color: #000000;
+  
+   color: #000000 !important;
 }
 ion-app.app-root core-progress-bar progress {
     
