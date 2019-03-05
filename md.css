@@ -95,7 +95,18 @@ ion-side-menu li.item.item-divider {
 .spinner circle, .spinner line {
     stroke: #5069A1;
 }
+/* new */
+.ion-app.app-root .core-tabs-bar a.tab-slide[aria-selected=true] {
+    color: #cb3d4d!important;
+    border: 0!important;
+    border-bottom: 2px solid #cb3d4d!important;
+    padding: 0!important;
+}
 
+
+.fa-star:before {
+    color: #cb3d4d ;
+}
 /* Buttons */
 .button-md,
 .button-ios,
@@ -109,9 +120,9 @@ ion-side-menu li.item.item-divider {
 .button-outline-md,
 .button-outline-ios,
 .button-outline-wp {
-    border-color: #00ff08;
-    background-color: #00ff08;
-    color: #00ff08;
+    border-color: black;
+    background-color: red;
+    color: white;
 }
 
 .button-clear-md,
